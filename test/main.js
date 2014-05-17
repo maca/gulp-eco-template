@@ -59,49 +59,6 @@ describe('gulp-eco-template', function() {
       stream.end();
     });
 
-
-    // it('should format the eco', function(done) {
-    //   var stream = eco('And then <%= foo %> said : ', { foo : 'you' } );
-    //   //var stream = eco('And then ${foo} said : ', { foo : 'you' } );
-    //   stream.on('data', function (newFile) {
-    //     should.exist(newFile.contents);
-    //     newFile.contents.toString().should.equal('And then you said : Hello world');
-    //   });
-    //   stream.once('end', done);
-
-    //   stream.write(fakeFile);
-    //   stream.end();
-    // });
-
-
-    // it('should format the eco (ES6 delimiters)', function(done) {
-    //   var stream = eco('And then ${foo} said : ', { foo : 'you' } );
-    //   stream.on('data', function (newFile) {
-    //     should.exist(newFile.contents);
-    //     newFile.contents.toString().should.equal('And then you said : Hello world');
-    //   });
-    //   stream.once('end', done);
-
-    //   stream.write(fakeFile);
-    //   stream.end();
-    // });
-
-
-    // it('should access to the current file', function(done) {
-    //   var stream = eco([
-    //     '<%= file.relative %>',
-    //     '<%= file.path %>',
-    //     ''].join('\n'));
-    //   stream.on('data', function (newFile) {
-    //     should.exist(newFile.contents);
-    //     newFile.contents.toString().should.equal('file.js\n./test/fixture/file.js\nHello world');
-    //   });
-    //   stream.once('end', done);
-
-    //   stream.write(fakeFile);
-    //   stream.end();
-    // });
-
   });
 
 });

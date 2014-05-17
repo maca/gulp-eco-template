@@ -1,9 +1,9 @@
 /* jshint node: true */
 'use strict';
 
-var es     = require('event-stream');
-var eco    = require('eco');
-var gutil  = require('gulp-util');
+var es    = require('event-stream');
+var eco   = require('eco');
+var gutil = require('gulp-util');
 
 var ecoTemplatePlugin = function(locals, data) {
   locals = locals || {};

@@ -1,0 +1,37 @@
+{
+  "name": "gulp-eco-template",
+  "version": "0.0.0",
+  "description": "Render eco templates within gulp tasks",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "dependencies": {
+    "eco": "~1.1.0-rc-3",
+    "event-stream": "~3.1.5"
+  },
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "mocha": "~1.18.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maca/gulp-eco-template.git"
+  },
+  "keywords": [
+    "gulp",
+    "eco",
+    "coffeescript",
+    "templating"
+  ],
+  "author": "Macario Ortega",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maca/gulp-eco-template/issues"
+  },
+  "homepage": "https://github.com/maca/gulp-eco-template"
+}
